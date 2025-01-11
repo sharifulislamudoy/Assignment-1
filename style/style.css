@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Fira Sans", serif;
+}
+body{
+    font-family: "Fira Sans", serif;
+    margin: 20px 160px;
+    background-color: azure;
+}
+
+/* All Button */
+
+.all-btn{
+    border-radius: 4px;
+    background: rgb(0, 106, 80);
+    color: white;
+    padding: 10px 28px;
+    border: none;
+}
+.navigations{
+    display: flex;
+    justify-content: space-between;
+}
+.navigations-btn{
+    box-sizing: border-box;
+    width: 90px;
+    padding: 10px;
+    border: 1px solid rgb(0, 106, 80);
+    border-radius: 4px;
+    color: rgb(0, 106, 80);
+    background: none;
+}
+.Header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 20px;
+    margin-top: 25px;
+    padding: 40px 35px;
+    background: rgb(198, 228, 214);
+}
+.head-img{
+    width: 370px;
+    height: auto;
+}
+.caption{
+    color: #0E0E0E80;
+    font-size: 18px;
+    font-weight: 500;
+}
+.title{
+    color: #0E0E0E;
+    font-weight: 700;
+    font-size: 42px;
+}
+.title-spacing{
+    margin: 10px auto;
+}
+.about{
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.pillars{
+    color: #0E0E0E;
+    font-weight: 700;
+    font-size: 29px;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+.main-content{
+    background-color: white;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border-radius: 8px;
+}
+.icon-img{
+    width: 40px;
+}
+.main-des{
+    color: #0E0E0EB3;
+    font-size: 13px;
+    line-height: 20px;
+}
+.second-btn{
+    padding: 10px;
+    color: white;
+    border: none;
+}
+#btn-1{
+    border-radius: 8px;
+    background: rgb(84, 144, 245);
+    position: absolute;
+}
+#btn-2{
+    border-radius: 8px;
+    background-color: rgb(9, 161, 92);
+}
+#btn-3{
+    border-radius: 8px;
+    background-color: rgb(255, 194, 57);
+}
+.btn-positon{
+    float: right;
+}
+.about-dr-younus{
+    padding: 20px 12px;
+    background-image: url(../assets/quote-bg.png);
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: unset;
+    border: white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.yoyo{
+    color: #0E0E0E99;
+    font-size: 12px;
+    font-weight: 300;
+}
+.sub-main{
+    display: table;
+    padding: 15px;
+    background-color: white;
+    border-radius: 8px;
+    border-collapse: collapse;
+}
+.sub-main-p{
+    display: table-row;
+}
+.sub-main-c{
+    padding: 10px;
+    border: 1px #C6E4D6 solid;
+    display: table-cell;
+    font-size: 12px;
+    font-weight: 700;
+}
+#sub-main-p-c{
+    background-color: #C6E4D6;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 17px;
+}
+.sub-main-btn{
+    font-size: 12px;
+    font-weight: 700;
+    background-color: #C6E4D6;
+    border: none;
+    margin: 1px;
+    padding: 10px;
+    width: 150px;
+    border: 1px black solid;
+    border-radius: 4px;
+}
+#sub-main-p-c-w{
+    width: 780px;
+}
